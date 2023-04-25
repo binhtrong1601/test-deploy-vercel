@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   const router = useRouter();
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/v1/students", {
+    fetch(process.env.STUDENT_API, {
       credentials: "include",
     })
       .then((res) => {
