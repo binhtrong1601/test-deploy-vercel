@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    STUDENT_API: "http://localhost:8080/api/v1/students",
+    STUDENT_API: "http://my_project/api/v1/students",
   },
 };
 
